@@ -1,0 +1,51 @@
+.mark-style {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    height: 100%;
+}
+
+@media screen and (max-width: 475px) {
+    #editor {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+}
+
+.textarea-style {
+    width: 600px;
+    border: 0;
+    background-color: #6497b1;
+    color: #fff;
+    padding: 10px;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+/* 
+@media screen and (max-width: 470px) {
+    .textarea-style {
+        width: 500px;
+        border: 0;
+        background-color: #6497b1;
+        color: #fff;
+        padding: 10px;
+    }  
+} */
+
+.text-header {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
